@@ -8,11 +8,17 @@ website:
     # background: "#1c4982"
     pinned: true
     left:
+      - text: Project
+        href: danl_proj_nba.ipynb
       - text: Blog
         href: blog-listing.qmd
+      - text: "Python Data Analysis"
+        menu: 
+          - pandas_basic.ipynb
+          - seaborn_basic.ipynb
             
   page-footer: 
-    center: "Powered with GitHub, Quarto, and Jupyter Notebook<br>© YOUR NAME, 2025"
+    center: "Powered with GitHub, Quarto, and Jupyter Notebook<br>© Luna Oley, 2025"
 
 format:
   html:

@@ -1,39 +1,39 @@
 ---
-title: "YOUR NAME" 
+title: "Luna Oley" 
 about:
   template: jolla  # jolla  trestles  solana  marquee  broadside
-  image: img/profile.png
+  image: img/Profpic.png
   image-width: 16em
   image-shape: round # rectangle  round  rounded
   
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/luna-oley-779482303/
     - icon: github
       text: GitHub
-      href: https://github.com
+      href: https://github.com/luna-oley/luna-oley.github.io
     - icon: file-earmark-pdf
       text: Resumé
-      href: resume-example.pdf
+      href: resume.pdf
       target: _blank
     - icon: mailbox
       text: Email
-      href: mailto:YOUR_EMAIL@geneseo.edu
+      href: mailto:lko1@geneseo.edu
 
 ---
 
 
-Finley Malloc majors in Data Analytics at SUNY Geneseo. When not working on data analytics, Finley enjoys spending time unicycling and playing with her pet iguana.
+Luna Oley majors in Mathematics with a double minor in Data Analytics and Business Studies. When she isn't studying for her degree she is organizing events for the club lacrosse team, going to practice, Working as a calculus I supplemental instuctor or serving at The Village Tavern.
 
 ## Education
 
 State University of New York at Geneseo | Geneseo, NY <br>
-B.S. in Data Analytics | Aug 2022 - May 2026 <br>
-Minor in Economics
+B.A. in Mathematics | Aug 2022 - May 2026 <br>
+Minor in Business Studies and a minor in Data Analytics
 
 ## Experience
 
-Starbucks Analytics | Data Analyst Intern | May 2024 - Aug 2024
+
 
 

@@ -13,5 +13,11 @@
   },
   "posts/welcome/index.qmd": {
     "index.html": "071a4ff8"
+  },
+  "danl_proj_nba.ipynb": {
+    "danl_proj_nba.html": "e6f45b7b"
+  },
+  "posts/pybasic/danl_210_python_basic.ipynb": {
+    "danl_210_python_basic.html": "21beec64"
   }
 }
