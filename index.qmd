@@ -15,7 +15,7 @@ about:
       href: https://github.com/luna-oley/luna-oley.github.io
     - icon: file-earmark-pdf
       text: Resumé
-      href: resume.pdf
+      href: Resume.pdf
       target: _blank
     - icon: mailbox
       text: Email

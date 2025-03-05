@@ -13,16 +13,18 @@ website:
       - text: Blog
         href: blog-listing.qmd
       - text: "Python Data Analysis"
-        menu: 
-          - pandas_basic.ipynb
-          - seaborn_basic.ipynb
+        menu:
+          - text: Pandas Basics
+            href: pandas_basics.ipynb
+          - text: Seaborn Basics
+            href: seaborn_basics.ipynb
             
   page-footer: 
     center: "Powered with GitHub, Quarto, and Jupyter Notebook<br>© Luna Oley, 2025"
 
 format:
   html:
-    theme: 
+    theme:
       light: flatly # flatly sandstone yeti united litera journal
       dark: darkly #  darkly cyborg slate solra superhero
     mainfont: system-ui; 
