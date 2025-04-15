@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Luna Oley">
+<meta name="dcterms.date" content="2025-04-09">
 
-<title>Insightful Analytics  – Luna Oley</title>
+<title>Christmas Movies – Luna Oley</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,28 +22,60 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,77 +103,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Luna Oley</span>
     </a>
   </div>
@@ -150,11 +126,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./danl_proj_nba.html"> 
+    <a class="nav-link" href="../../danl_proj_nba.html"> 
 <span class="menu-text">Project</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog-listing.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog-listing.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -163,11 +139,11 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-python-data-analysis">    
         <li>
-    <a class="dropdown-item" href="./pandas_basics.html">
+    <a class="dropdown-item" href="../../pandas_basics.html">
  <span class="dropdown-text">Pandas Basics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./seaborn_basics.html">
+    <a class="dropdown-item" href="../../seaborn_basics.html">
  <span class="dropdown-text">Seaborn Basics</span></a>
   </li>  
     </ul>
@@ -181,237 +157,240 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Christmas Movies</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Programing</div>
+                <div class="quarto-category">Python</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Luna Oley </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">April 9, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Intro">Intro <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Programing">Programing <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Programming">Programming <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Python">Python <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Spotify">Spotify <span class="quarto-category-count">(1)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(2)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(2)</span></div><div class="category" data-category="starwars">starwars <span class="quarto-category-count">(1)</span></div></div></div>
-<!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Insightful Analytics<br><br></h1>
-</div>
-
-
-
-<div class="quarto-title-meta column-page-left">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
+  </ul>
+</nav>
     </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Programing,Python" data-listing-date-sort="1744171200000" data-listing-file-modified-sort="1744679218519" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="138">
-<div class="thumbnail">
-<p><a href="./posts/Holiday Movies/Holiday_Movies.html" class="no-external"></a></p><a href="./posts/Holiday Movies/Holiday_Movies.html" class="no-external">
-<p><img loading="lazy" src="./posts/Holiday Movies/Xmas_pic.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/Holiday Movies/Holiday_Movies.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Holiday Movies/Holiday_Movies.html" class="no-external">Christmas Movies</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/Holiday Movies/Holiday_Movies.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/Holiday Movies/Holiday_Movies.html" class="no-external">
-<div class="listing-date">
-Apr 9, 2025
-</div>
-<div class="listing-author">
-Luna Oley
-</div>
-<div class="listing-reading-time">
-1 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Programing,Spotify,Python" data-listing-date-sort="1741150800000" data-listing-file-modified-sort="1741213060544" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
-<div class="thumbnail">
-<p><a href="./posts/Spotify/Spotify.html" class="no-external"></a></p><a href="./posts/Spotify/Spotify.html" class="no-external">
-<p><img loading="lazy" src="./posts/Spotify/Spotify_logo.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/Spotify/Spotify.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Spotify/Spotify.html" class="no-external">Spotify Favorites</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/Spotify/Spotify.html" class="no-external"></a>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<p>First we load the Holiday Movies and Holiday Movies Genres dataset and observe it’s structure. The Holiday Movies data set contains variables named tconst, title_type, primary_title, simple_title, and year. The Holiday Movie Genres dataset has 3 variables, runtime_minutes, average_rating, and num_votes.</p>
+<div id="cell-2" class="cell" data-outputid="ff591908-8242-4a77-f188-dc4db0c25da0" data-execution_count="10">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>holiday_movies <span class="op">=</span> pd.read_csv(<span class="st">"https://bcdanl.github.io/data/holiday_movies.csv"</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>holiday_movie_genres <span class="op">=</span> pd.read_csv(<span class="st">"https://bcdanl.github.io/data/holiday_movie_genres.csv"</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(holiday_movies.head())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      tconst title_type          primary_title          simple_title  year  \
+0  tt0020356      movie       Sailor's Holiday       sailors holiday  1929   
+1  tt0020823      movie    The Devil's Holiday    the devils holiday  1930   
+2  tt0020985      movie                Holiday               holiday  1930   
+3  tt0021268      movie  Holiday of St. Jorgen  holiday of st jorgen  1930   
+4  tt0021377      movie    Sin Takes a Holiday   sin takes a holiday  1930   
+
+   runtime_minutes  average_rating  num_votes  
+0             58.0             5.4         55  
+1             80.0             6.0        242  
+2             91.0             6.3        638  
+3             83.0             7.4        256  
+4             81.0             6.1        740  </code></pre>
 </div>
 </div>
-<div class="metadata">
-<a href="./posts/Spotify/Spotify.html" class="no-external">
-<div class="listing-date">
-Mar 5, 2025
-</div>
-<div class="listing-author">
-Luna Oley
-</div>
-<div class="listing-reading-time">
-1 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Python,Programming,Intro" data-listing-date-sort="1739768400000" data-listing-file-modified-sort="1739829525597" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="109">
-<div class="thumbnail">
-<p><a href="./posts/pybasic/danl_210_python_basic.html" class="no-external"></a></p><a href="./posts/pybasic/danl_210_python_basic.html" class="no-external">
-<p><img loading="lazy" src="./posts/pybasic/pythonpic.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/pybasic/danl_210_python_basic.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/pybasic/danl_210_python_basic.html" class="no-external">Python Basics</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/pybasic/danl_210_python_basic.html" class="no-external"></a>
+<section id="section" class="level1">
+<h1></h1>
+<p>We will start looking at the data by counting the number of movies by year from the Holiday Movies data set.</p>
+<div id="cell-5" class="cell" data-outputid="4a916e32-a09c-411c-f8e0-cb2c31d304f5" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Count the number of movies by year</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>movies_by_year <span class="op">=</span> holiday_movies[<span class="st">'year'</span>].value_counts().sort_index()</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(movies_by_year)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>year
+1929      1
+1930      5
+1931      1
+1934      3
+1936      2
+       ... 
+2019    143
+2020    172
+2021    183
+2022    173
+2023    107
+Name: count, Length: 91, dtype: int64</code></pre>
 </div>
 </div>
-<div class="metadata">
-<a href="./posts/pybasic/danl_210_python_basic.html" class="no-external">
-<div class="listing-date">
-Feb 17, 2025
-</div>
-<div class="listing-author">
-Luna Oley
-</div>
-<div class="listing-reading-time">
-1 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="news" data-listing-date-sort="1737522000000" data-listing-file-modified-sort="1738335514223" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
-<p class="card-img-top"><img src="posts\welcome\thumbnail.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/welcome/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">Welcome To My Blog</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/welcome/index.html" class="no-external"></a>
+<p>Then we look at the Holiday Movies dataset number of imb rating in descending order. We do this by sorting the values by the variables “num_votes”.</p>
+<div id="cell-7" class="cell" data-outputid="6572324f-5d47-4d6e-d93b-b5a6bdbdaa9d" data-execution_count="7">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort movies by IMDb rating in descending order</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>top_rated_movies <span class="op">=</span> holiday_movies.sort_values(by<span class="op">=</span><span class="st">'num_votes'</span>, ascending<span class="op">=</span><span class="va">False</span>).head(<span class="dv">10</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(top_rated_movies[[<span class="st">'primary_title'</span>, <span class="st">'num_votes'</span>]])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                              primary_title  num_votes
+151          The Nightmare Before Christmas     367288
+501                             The Holiday     308807
+211          How the Grinch Stole Christmas     276568
+135   National Lampoon's Christmas Vacation     209533
+107                       A Christmas Story     163273
+48                            Roman Holiday     145289
+499                      Mr. Bean's Holiday     132186
+680                       A Christmas Carol     125562
+2151                         Last Christmas      86058
+1288                 Office Christmas Party      85255</code></pre>
 </div>
 </div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Jan 22, 2025
-</div>
-<div class="listing-author">
-YOUR NAME
-</div>
-<div class="listing-reading-time">
-1 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="starwars,code,analysis" data-listing-date-sort="1737522000000" data-listing-file-modified-sort="1738335514058" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="438">
-<div class="thumbnail">
-<p><a href="./posts/starwars/starwars_df.html" class="no-external"></a></p><a href="./posts/starwars/starwars_df.html" class="no-external">
-<p><img loading="lazy" src="./posts/starwars/image.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/starwars/starwars_df.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/starwars/starwars_df.html" class="no-external">Starwars</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/starwars/starwars_df.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/starwars/starwars_df.html" class="no-external">
-<div class="listing-date">
-Jan 22, 2025
-</div>
-<div class="listing-author">
-Your Name
-</div>
-<div class="listing-reading-time">
-3 min
-</div>
-</a>
+<p>Next we will look to filter movies released in or after 200.</p>
+<div id="cell-9" class="cell" data-outputid="c3a95efb-cb1d-4535-ddef-280827692e92" data-execution_count="8">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter movies released in or after 2000</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>modern_holiday_movies <span class="op">=</span> holiday_movies[holiday_movies[<span class="st">'year'</span>] <span class="op">&gt;=</span> <span class="dv">2000</span>]</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(modern_holiday_movies.head())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>        tconst title_type                   primary_title  \
+211  tt0170016      movie  How the Grinch Stole Christmas   
+250  tt0217978      movie                         'R Xmas   
+256  tt0221074      movie         Christmas in the Clouds   
+269  tt0233828      movie                The Long Holiday   
+273  tt0238121      movie  A Christmas Tree and a Wedding   
+
+                       simple_title  year  runtime_minutes  average_rating  \
+211  how the grinch stole christmas  2000            104.0             6.3   
+250                          r xmas  2001             85.0             5.7   
+256         christmas in the clouds  2001             96.0             6.4   
+269                the long holiday  2000            145.0             7.9   
+273  a christmas tree and a wedding  2000             90.0             8.3   
+
+     num_votes  
+211     276568  
+250       1588  
+256        863  
+269        116  
+273         57  </code></pre>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="news,code,analysis" data-listing-date-sort="1737522000000" data-listing-file-modified-sort="1738335513868" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
-<div class="thumbnail">
-<p><a href="./posts/post-with-code/index.html" class="no-external"></a></p><a href="./posts/post-with-code/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/post-with-code/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/post-with-code/index.html" class="no-external"></a></p>
+<p>Now using the Holiday Movie and Holiday Movie Genres data sets we will merge them to first combine them to create a dataset that includes all the variables. Then with this dataset we will find the highest rated movue for each genre</p>
+<div id="cell-11" class="cell" data-outputid="92e7b6a4-5478-4aad-f0bb-1172c6e3dc81" data-execution_count="16">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Find the highest-rated movie for each genre</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Perform an inner join to combine movie and genre information</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>movies_with_genres <span class="op">=</span> pd.merge(holiday_movies, holiday_movie_genres, how<span class="op">=</span><span class="st">'inner'</span>, on<span class="op">=</span><span class="st">'tconst'</span>)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(movies_with_genres.head())</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>highest_rated_by_genre <span class="op">=</span> movies_with_genres.loc[movies_with_genres.groupby(<span class="st">'genres'</span>)[<span class="st">'num_votes'</span>].idxmax()]</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(highest_rated_by_genre[[<span class="st">'genres'</span>, <span class="st">'primary_title'</span>, <span class="st">'num_votes'</span>]])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      tconst title_type        primary_title        simple_title  year  \
+0  tt0020356      movie     Sailor's Holiday     sailors holiday  1929   
+1  tt0020823      movie  The Devil's Holiday  the devils holiday  1930   
+2  tt0020823      movie  The Devil's Holiday  the devils holiday  1930   
+3  tt0020985      movie              Holiday             holiday  1930   
+4  tt0020985      movie              Holiday             holiday  1930   
+
+   runtime_minutes  average_rating  num_votes   genres  
+0             58.0             5.4         55   Comedy  
+1             80.0             6.0        242    Drama  
+2             80.0             6.0        242  Romance  
+3             91.0             6.3        638   Comedy  
+4             91.0             6.3        638    Drama  
+           genres                                      primary_title  \
+3217       Action                                            Holiday   
+1391    Adventure                                  A Christmas Carol   
+316     Animation                     The Nightmare Before Christmas   
+3883    Biography                     The Man Who Invented Christmas   
+1023       Comedy                                        The Holiday   
+3218        Crime                                            Holiday   
+1798  Documentary            Louis Theroux's African Hunting Holiday   
+4290        Drama                                     Last Christmas   
+317        Family                     The Nightmare Before Christmas   
+318       Fantasy                     The Nightmare Before Christmas   
+60      Film-Noir                                  Christmas Holiday   
+263       History                       Blackadder's Christmas Carol   
+171        Horror                                    Black Christmas   
+54          Music                                        Holiday Inn   
+112       Musical                                    White Christmas   
+172       Mystery                                    Black Christmas   
+3776         News   Disney Parks Unforgettable Christmas Celebration   
+4486   Reality-TV            D'Astrain No Cinema - Christmas Special   
+1024      Romance                                        The Holiday   
+839        Sci-Fi                                  Christmas on Mars   
+3903        Short                         Four Christmases: Gag Reel   
+3797        Sport                              Falling for Christmas   
+3773    Talk-Show  A Christmas Eve Conversation with Quentin Tara...   
+173      Thriller                                    Black Christmas   
+231           War                       Merry Christmas Mr. Lawrence   
+3452      Western                                El Camino Christmas   
+
+      num_votes  
+3217      29676  
+1391     125562  
+316      367288  
+3883      17908  
+1023     308807  
+3218      29676  
+1798       1138  
+4290      86058  
+317      367288  
+318      367288  
+60         1583  
+263       13712  
+171       46105  
+54        16722  
+112       47688  
+172       46105  
+3776         18  
+4486         81  
+1024     308807  
+839         814  
+3903        744  
+3797       1644  
+3773         36  
+173       46105  
+231       19475  
+3452      10269  </code></pre>
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post-with-code/index.html" class="no-external">Post With Code</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/post-with-code/index.html" class="no-external"></a>
 </div>
-</div>
-<div class="metadata">
-<a href="./posts/post-with-code/index.html" class="no-external">
-<div class="listing-date">
-Jan 22, 2025
-</div>
-<div class="listing-author">
-YOUR NAME
-</div>
-<div class="listing-reading-time">
-1 min
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+
+</section>
+
+</main> <!-- /main -->
 <script type="text/javascript" src="links.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

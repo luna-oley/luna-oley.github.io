@@ -12,10 +12,10 @@ about:
       href: https://www.linkedin.com/in/luna-oley-779482303/
     - icon: github
       text: GitHub
-      href: https://github.com/luna-oley/luna-oley.github.io
+      href: https://github.com/luna-oley
     - icon: file-earmark-pdf
       text: Resumé
-      href: Resume.pdf
+      href: Resume_Oley.pdf
       target: _blank
     - icon: mailbox
       text: Email
